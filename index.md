@@ -52,7 +52,7 @@ MCTS is applied to find the heating plan that best achieves a specific goal, in 
         Your browser does not support the video tag.
     </video>
     <video width="240" height="240" controls style="margin-left: 10px;">
-        <source src="./multimedia/bad_pockets_2_layers.mp4" type="video/mp4">
+        <source src="./multimedia/bad_dense_2layers.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 </div>
@@ -66,7 +66,7 @@ MCTS is applied to find the heating plan that best achieves a specific goal, in 
         Your browser does not support the video tag.
     </video>
     <video width="240" height="240" controls style="margin-left: 10px;">
-        <source src="./multimedia/good_pockets_2_layers.mp4" type="video/mp4">
+        <source src="./multimedia/good_dense_2layers.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 </div>
@@ -77,10 +77,11 @@ MCTS is applied to find the heating plan that best achieves a specific goal, in 
    ![Pipeline](./multimedia/thickness.pdf)
 
 - **Repeatability:** The homogeneity of the fields also result in having a constant layer height throughout the layers, allowing the processes to execute seamlessly, compared to the initial strategies that fail to print because of height inconsistencies.
-
+    ***
     ![Dense](./multimedia/group_parts_dense.pdf)
     ***
     ![Pockets](./multimedia/group_parts_pockets.pdf)
+    ***
  
 
 ## Article
