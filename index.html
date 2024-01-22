@@ -1,0 +1,41 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Path Planning in Homogeneous Temperature Fields</title>
+        <meta name="description" content="Path Planning in Homogeneous Temperature Fields">
+        <meta name="author" content="Jorge Luis Zapico">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/styles.css?v=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <script>
+            $(document).ready(function () {
+                $("#btnSubmit").click(function () {
+                    var data = $("#frm").serialize();
+                    $.ajax({
+                        type: "POST",
+                        url: "path.php",
+                        data: data,
+                        success: function (data) {
+                            $("#result").html(data);
+                        }
+                    });
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <h1>Path Planning in Homogeneous Temperature Fields</h1>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente explicabo dicta numquam repellendus inventore maxime architecto? Ipsam sint dicta cumque repellat voluptates voluptatum similique harum totam, tempora error, impedit molestiae.</p>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente explicabo dicta numquam repellendus inventore maxime architecto? Ipsam sint dicta cumque repellat voluptates voluptatum similique harum totam, tempora error, impedit molestiae.</p>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente explicabo dicta numquam repellendus inventore maxime architecto? Ipsam sint dicta cumque repellat voluptates voluptatum similique harum totam, tempora error, impedit molestiae.</p>
+    </body>
+</html>
